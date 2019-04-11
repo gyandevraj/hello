@@ -1,0 +1,102 @@
+html{
+    font-size: 1em;
+    color:#222;
+}
+
+.wraper{
+    width: auto;
+    margin: auto;
+    background color: #a5abc3;
+}
+
+#content{
+    
+    padding: inherit;
+}
+content s{
+    text-dec oration-color: black;
+}
+
+a{
+    color: #87438e;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+
+#header{
+    width: 35%;
+    display: inline-block;
+    
+}
+
+nav {
+    background color: #D8C58;
+    display:inline-block;
+    float: right;
+    width: auto;
+}
+
+img{
+    /* This Is For Fixed Size Media */
+   /* width: 600px;
+    margin: 0 auto; */
+   /* This is for auto resizing of media */
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+    
+}
+
+Footer{
+    padding: 10px;
+    color: black;
+    
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+nav ul{
+    list-style: none;
+}
+ 
+h1 .logo{
+   margin-top: 0px;
+    padding: 0px;
+    
+}
+
+@media only screen and (max-width: 786px;) {
+    
+    #header{
+        width: 100%;
+}
+    nav{
+        width: 100%;
+      
+    }
+    .wraper{
+        width: 100%;
+        margin: 0;
+}
+    nav a{
+        padding: 0;
+    }
+
+
+
